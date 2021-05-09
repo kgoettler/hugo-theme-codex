@@ -204,6 +204,19 @@ footer {
 
 /* overrides */
 .post__content {
+
+  a:link {
+    color: #5E81AC;
+  }
+  
+  a:visited {
+    color: #B48EAD;
+  }
+
+  a:hover {
+    color: $black;
+  }
+
   ul {
     list-style: none;
 
@@ -239,3 +252,4 @@ table {
     border: 1px double $greyTableBorder;
   }
 }
+

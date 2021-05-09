@@ -1,0 +1,12 @@
+<div class="gallery gallery-columns-1 gallery-size-full">
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <img src="{{.Get "src" }}">
+        </div>
+        {{ if .Get "caption" }}
+        <figcaption class="gallery-caption">
+            {{ .Get "caption" }}
+        </figcaption>
+        {{ end }}
+    </figure>
+</div>

@@ -1,0 +1,4 @@
+.fancy {
+    color: {{ .Site.Params.colors.fancy | default "#5E81AC" }}
+}
+
